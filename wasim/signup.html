@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+    .center {
+
+  display: block;
+  margin-left:auto; 
+  margin-right: auto;
+
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.continue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn {
+  background-color:#05264e;
+}
+.btn:hover{
+      background-color: #1a3d68;
+      color: #ffffff;
+      transition: 0.2s
+  }
+  h2{
+    margin: 0%;
+    color: #05264e;
+  }
+  p{
+    margin-bottom: 0%;
+  }
+  label{
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+@media only screen and (min-width: 600px) {
+    .center {
+     margin: auto;
+     width: 40%;
+  }
+
+}
+</style>
+</head>
+<body>
+    
+    <form class="container center mt-2">
+        <h2 style="text-align:center;">Register</h2>
+      <hr/>
+          <div class="form-group">
+       <button class="form-control">
+        <img src="https://cdn-icons-png.flaticon.com/512/2504/2504739.png" class="icon" alt="google"/>
+        <strong>Sign in with Google</strong>
+       </button>
+    </div>
+        <div class="continue"><p>or Continue with</p> </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Full Name*</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your fullname">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Email*</label>
+          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">DOB*</label>
+          <input type="date" class="form-control" id="exampleFormControlInput3" placeholder="Enter your DOB">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput4">Mobile Number*</label>
+          <input type="number" class="form-control" id="exampleFormControlInput4" placeholder="Enter your number">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput5">Password*</label>
+            <input type="password" class="form-control" id="exampleFormControlInput5" placeholder="********">
+          </div>
+          <button type="submit" class="btn btn-primary form-control">Submit and Register</button>
+      </form>
+</body>
+</html>
